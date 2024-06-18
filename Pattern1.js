@@ -1,10 +1,10 @@
 function leftTriangle(rows) {
   for (let i = 1; i <= rows; i++) {
-    let row = '';
+    let star = '';
     for (let j = 1; j <= i; j++) {
-      row += '*';
+      star += '*';
     }
-    console.log(row);
+    console.log(star);
   }
 }
 
